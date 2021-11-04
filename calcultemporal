@@ -1,0 +1,6 @@
+echo "Digues un número en segons, i ho sabras en hores, minuts i segons"
+read num
+echo $((num/3600))hores
+echo $[((num%3600))/60]minuts
+echo $[((num%3600))%60]segons
+
