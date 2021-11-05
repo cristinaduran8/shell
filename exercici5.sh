@@ -14,10 +14,12 @@ if test $num1 -gt $num2
  then
  echo "El primer nombre és més gran"
 fi
+
 if test $num2 -gt $num1
  then
  echo "El primer nombre és més petit"
 fi
+
 if test $num1 -eq $num2
  then
  echo "Els nombres són iguals."
@@ -32,14 +34,16 @@ n=$((RANDOM%11))
 echo $n
 
 if test $num -gt $n
-then
-echo "El primer nombre és més gran"
+ then
+ echo "El primer nombre és més gran"
 fi
+
 if test $n -gt $num
-then
-echo "El primer nombre és més petit"
+ then
+ echo "El primer nombre és més petit"
 fi
+
 if test $n -eq $num
-then
-echo "Els nombres són iguals."
+ then
+ echo "Els nombres són iguals."
 fi
