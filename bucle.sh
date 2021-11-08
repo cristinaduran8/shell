@@ -1,4 +1,4 @@
-for a in {5..10}
+for a in {1..10}
 do
     echo $a
 done
