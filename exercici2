@@ -4,14 +4,14 @@ read num1
 echo "Dim el segon nombre"
 read num2
 
-m=$num1*$num2
+m=$num1*2
 echo "si el multipliques és $m "
 
-if test $num1 -gt $num2
+if test $m -gt $num2
 then
-echo "El primer nombre , que es $num1 , és més gran que el segon, que és $num2 "
+echo "El primer nombre , que es $m , és més gran que el segon, que és $num2 "
 fi
 if test $num2 -gt $num1
 then
-echo "El segon nombre , que es $num2 , és més gran que el primer, que és $num1 "
+echo "El segon nombre , que es $num2 , és més gran que el primer, que és $m "
 fi
